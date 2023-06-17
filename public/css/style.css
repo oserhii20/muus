@@ -1,0 +1,1826 @@
+/**********
+    font-family: 'sf_pro_displayregular';
+    font-family: 'monument_extendedregular';
+* **************/
+
+*,
+ul {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+t {
+    outline: none;
+    text-decoration: none;
+}
+
+d {
+    list-style: none;
+}
+
+w {
+    max-width: 100%;
+}
+
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: 'sf_pro_displayregular';
+    color: #000;
+}
+
+.p0 {
+    padding: 0 !important
+}
+
+.m0 {
+    margin: 0 !important
+}
+
+
+/****************** HEADER ***********************/
+.MUUS_Main {
+    background: #000;
+    display: inline-block;
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.MUUS_home-header {
+    padding: 0 0 20px;
+}
+
+.navbar>.container-fluid {
+    align-items: flex-start;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand {
+    width: 270px;
+    padding: 30px 0 10px;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999
+}
+
+header .navbar-nav li {
+    position: relative;
+}
+
+header .navbar-nav li.active:before {
+    content: "";
+}
+
+header .navbar-nav li strong {
+    color: #5FF177;
+}
+
+header .navbar-nav li a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'monument_extendedregular';
+    margin: 0 20px;
+    padding-top: 30px;
+    border-top: 3px solid transparent;
+}
+
+header .navbar-nav li a:hover {
+    color: #DC8E59;
+    opacity: 1;
+}
+
+header .navbar-nav li.pink.active a {
+    
+}
+
+.MUUS_banner {
+    
+}
+
+.MUUS_banner h1 {
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'monument_extendedregular';
+    margin: 0 20px;
+}
+
+.MUUS_banner video {
+    width: 100%;
+    max-height: calc(100vh - 100px);
+    object-fit: cover;
+}
+
+/**************** Header CLose ***********/
+
+footer {
+    padding: 80px 0 0;
+    background: linear-gradient(180deg, #3D4144 0%, #1E2021 100%);
+}
+
+footer h3 {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'monument_extendedregular';
+}
+
+.MUUS-Footer {}
+
+.MUUS_footer-logo {
+    margin-bottom: 30px;
+}
+
+.MUUS_footer-text {}
+
+.MUUS_footer-text p {
+
+    background-clip: text;
+    text-fill-color: transparent;
+    padding: 0 50px 0 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    /* or 170% */
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'sf_pro_displayregular';
+}
+
+.MUUS_footer-nav {}
+
+.MUUS_footer-nav ul {}
+
+.MUUS_footer-nav ul li {
+    margin: 0 0 5px;
+}
+
+.MUUS_footer-nav ul li a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    text-decoration: none;
+    font-family: 'sf_pro_displayregular';
+}
+
+.MUUS_footer-nav ul li a:hover {
+    color: #DC8E59;
+    opacity: 1;
+}
+
+.MUUS_footer-Subscribe {}
+
+.MUUS_footer-Subscribe span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 34px;
+    /* identical to box height, or 212% */
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'sf_pro_displayregular';
+}
+
+.MUUS_copyright {
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 20px 0;
+    margin: 80px 0 0;
+}
+
+.MUUS_copyright p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.8);
+    opacity: 0.5;
+    text-align: center;
+    margin: 0;
+}
+
+.MUUS_socilaicon {
+    margin: 30px 0 0;
+}
+
+.MUUS_socilaicon li {
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+.MUUS_socilaicon li a {}
+
+.MUUS_Subscribe_box {
+    border: 1px solid #FFFFFF;
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0 0;
+}
+
+.MUUS_Subscribe_box input {
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+    /* opacity: 0.6; */
+    text-decoration: none;
+    font-family: 'sf_pro_displayregular';
+    background: transparent;
+    border: 0;
+    padding: 9px;
+    width: 83%;
+}
+
+.MUUS_Subscribe_box button {
+    border: 0;
+    height: 50px;
+    width: 50px;
+    float: right;
+}
+
+.MUUS_Subscribe_box button img {}
+
+
+
+/**************** Footer CLose ***********/
+
+
+.MUUS_Mission {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.MUUS_Mission h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 86px;
+    leading-trim: both;
+    text-edge: cap;
+    text-transform: uppercase;
+    /* background: linear-gradient(136.36deg, #DA8851 10.42%, #6CB6C4 97.97%); */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    background-clip: text;
+    text-fill-color: transparent;
+    font-family: 'monument_extendedregular';
+    color: #1E1E1E;
+}
+
+.MUUS_Mission p {
+    font-weight: 300;
+    font-size: 20px;
+    leading-trim: both;
+    text-edge: cap;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+    opacity: 0.5;
+    max-width: 900px;
+    margin: auto;
+}
+
+
+.MUUS_work {
+    background: linear-gradient(180deg, #3D4144 0%, #1E2021 100%);
+    padding: 100px 0;
+}
+
+.MUUS_work_studies h2 {
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 65px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'monument_extendedregular';
+    display: inline-block;
+}
+
+.MUUS_work_studies a {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'monument_extendedregular';
+    float: right;
+    text-decoration: none;
+}
+
+.MUUS_work_studies a:hover {
+    color: #DC8E59;
+}
+
+.MUUS_work_section {
+    margin: 30px 0 0;
+}
+
+.MUUS_work_box {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.MUUS_work_text {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(125px);
+    /* Note: backdrop-filter has minimal browser support */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #ffffff52;
+    padding: 20px;
+}
+
+.MUUS_work_text span {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'monument_extendedregular';
+    float: left;
+    text-decoration: none;
+    width: 50%;
+}
+
+.MUUS_work_text a {
+    text-align: right;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'monument_extendedregular';
+    float: right;
+    text-decoration: none;
+    width: 50%;
+    margin: 11px 0 0;
+}
+
+.MUUS_work_text a:hover {
+    color: #DC8E59;
+}
+
+.MUUS_services {
+    padding: 100px 0;
+    background: url(../images/faq-bg.png);
+    background-repeat: no-repeat;
+    background-position: right -100px;
+    background-size: 150px;
+}
+
+.MUUS_work_services h3 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'monument_extendedregular';
+    display: inline-block;
+    color: #131211;
+    opacity: 0.5;
+    margin-bottom: 30px;
+}
+
+.MUUS_accordion .accordion-item {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #11100f17;
+    padding: 20px 0;
+}
+
+.MUUS_accordion .accordion-item h2 {}
+
+.MUUS_accordion .accordion-item h2 button.accordion-button {
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'monument_extendedregular';
+    display: inline-block;
+    color: #131211;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    padding: 0;
+}
+
+.MUUS_accordion .accordion-body {
+    padding: 0;
+}
+
+.MUUS_accordion .accordion-body p {
+    font-size: 20px;
+    line-height: 29px;
+    color: rgb(68 68 68 / 80%);
+    font-family: 'sf_pro_displayregular';
+    margin: 15px 0;
+}
+
+.MUUS_accordion .accordion-button:not(.collapsed)::after {
+    background: url(../images/min.png);
+    background-size: 24px 24px;
+    background-position: center;
+}
+
+.MUUS_accordion .accordion-button::after {
+    background: url(../images/plus.png);
+    background-size: 24px 24px;
+    position: absolute;
+    right: 0;
+    height: 24px;
+    width: 24px;
+}
+
+.MUUS_team {
+    background: linear-gradient(180deg, #3D4144 0%, #1E2021 100%);
+    padding: 100px 0;
+}
+
+.MUUS_team h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'monument_extendedregular';
+    display: inline-block;
+    opacity: 1;
+    leading-trim: both;
+    text-edge: cap;
+    text-transform: uppercase;
+    background: #ffffff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.MUUS_team p {
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.MUUS_team_member {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(125px);
+    /* Note: backdrop-filter has minimal browser support */
+    border: 1px solid #ffffff17;
+    border-radius: 12px;
+    margin: 15px 0;
+}
+
+.MUUS_team_member_img {
+    padding: 10px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.MUUS_team_member_img img {
+    border-radius: 12px 12px 0 0;
+}
+
+.MUUS_team_member_text {
+    padding: 20px;
+}
+
+.MUUS_team_member_text h4 {
+    font-weight: 400;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-family: 'monument_extendedregular';
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 13px;
+}
+
+.MUUS_team_member_text h6 {
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.MUUS_let_work {
+    padding: 100px 0;
+    position: relative;
+}
+
+.MUUS_let_work:before {
+    content: "";
+    background: url(../images/Vector2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 0;
+    background-position: center;
+    height: 525px;
+    width: 900px;
+    z-index: 1;
+}
+
+.MUUS_let_work:after {
+    content: "";
+    background: url(../images/Ellipse3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    background-position: left;
+    height: 100%;
+    width: 80%;
+    bottom: 0;
+    background-size: cover;
+}
+
+.MUUS_let_work_box {
+    border: 1px solid #e3e3e3;
+    background: #fff;
+
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 24px;
+    position: relative;
+    z-index: 1;
+}
+
+.MUUS_let_work_box a {
+    border: 1px solid #DC8E59;
+    font-family: 'monument_extendedregular';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+    text-transform: uppercase;
+    color: #DC8E59;
+    width: 220px;
+    height: 54px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: blink;
+    margin: 20px 0 0;
+    padding: 13px 0;
+}
+
+.MUUS_let_work_box a:hover {
+    background-color: #DC8E59;
+    color: #ffffff;
+}
+
+.MUUS_let_work_box h2 {
+    font-weight: 400;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #1e1e1e;
+    font-family: 'monument_extendedregular';
+    display: inline-block;
+}
+
+.MUUS_logo_slider {
+    padding: 40px 0 0;
+}
+
+.MUUS_inner {
+    background: url(../images/team-inner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.MUUS_inner_team {}
+
+.MUUS_inner_team {
+    padding: 100px 0;
+}
+
+.MUUS_inner_team h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 60px;
+    font-family: 'monument_extendedregular';
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.MUUS_inner_team p {
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.MUUS_inner_team_member {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(125px);
+    border: 1px solid #ffffff17;
+    border-radius: 12px;
+    margin: 15px 0;
+}
+
+.MUUS_inner_team_member_img {
+    padding: 10px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.MUUS_inner_team_member_img img {
+    border-radius: 12px 12px 0 0;
+}
+
+.MUUS_inner_team_member_text {
+    padding: 20px;
+}
+
+.MUUS_inner_team_member_text h4 {
+    font-weight: 400;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-family: 'monument_extendedregular';
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 13px;
+}
+
+.MUUS_inner_team_member_text h6 {
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.MUUS_let_work_text {
+    padding: 0 0 0 50px;
+}
+
+.MUUS_let_work_img {
+    text-align: right;
+}
+
+.MUUS_jointeam {
+    padding: 100px 0;
+    background: linear-gradient(180deg, #3D4144 0%, #1E2021 100%);
+    text-align: center;
+}
+
+.MUUS_jointeam img {
+    width: 45px;
+    margin-bottom: 50px;
+}
+
+.MUUS_jointeam h3 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'monument_extendedregular';
+    color: #fff;
+    margin-bottom: 13px;
+    opacity: .5;
+}
+
+.MUUS_jointeam h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 60px;
+    font-family: 'monument_extendedregular';
+    text-transform: uppercase;
+    color: #fff;
+    margin: 24px 0;
+}
+
+.MUUS_jointeam a {
+    border: 1px solid #DB8A54;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'monument_extendedregular';
+    color: #fff;
+    margin-bottom: 13px;
+    text-decoration: none;
+    width: 300px;
+    height: 56px;
+    display: inline-block;
+    line-height: 50px;
+}
+
+.MUUS_jointeam a:hover {
+    background-color: #DC8E59;
+}
+
+.MUUS_lets_work {
+    padding: 100px 0;
+    background: #000;
+    position: relative;
+    background-image: url(../images/faq-bg.png);
+    background-position: right 0;
+    background-repeat: no-repeat;
+    background-size: 500px;
+}
+
+.MUUS_lets_work:before {
+    content: "";
+    background: url(../images/Vector2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 0;
+    background-position: center;
+    height: 500px;
+    width: 900px;
+    top: 0;
+}
+
+.MUUS_lets_work_box {
+    border: 1px solid #ffff;
+    background: #fff;
+    backdrop-filter: blur(125px);
+    border-radius: 24px;
+}
+
+.MUUS_lets_work_box a {
+    border: 1px solid #DC8E59;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #DC8E59;
+    width: 220px;
+    height: 54px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: blink;
+    margin: 20px 0 0;
+    padding: 13px 0;
+    font-family: 'monument_extendedregular';
+}
+
+.MUUS_lets_work_box a:hover {
+    background: #DC8E59;
+    color: #ffffff;
+}
+
+.MUUS_lets_work_box h2 {
+    font-weight: 400;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #1e1e1e;
+    font-family: 'monument_extendedregular';
+    display: inline-block;
+}
+
+.MUUS_lets_work_text {
+    padding: 0 0 0 50px;
+}
+
+.MUUS_about_main {
+    background: url(../images/about0.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.MUUS_inner_about {
+    padding: 100px 0;
+}
+
+.MUUS_about_section {}
+
+.MUUS_contact_main {
+    background: url(../images/team-inner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.MUUS_ceontac-map {
+    display: flex;
+}
+
+.MUUS_about_section p {
+    color: #1E1E1E !important;
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+.MUUS_about_section h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 60px;
+    font-family: 'monument_extendedregular';
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    /* background: linear-gradient(136.36deg, #DA8851 10.42%, #6CB6C4 97.97%); */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    color: #1E1E1E;
+}
+
+.MUUS_contact_main .MUUS_about_section h2,
+.MUUS_about_section p {
+    color: #fff;
+}
+
+.MUUS_letsabout_work.black-lettalk {
+    background: #000;
+}
+
+.MUUS_about_main header .navbar-nav li a,
+.MUUS_about_main header .navbar-nav li a {
+    color: #b2b2b2;
+
+    opacity: 1;
+}
+
+.MUUS_about_main header .navbar-nav li a:hover {
+    color: #DC8E59;
+    opacity: 1
+}
+
+.MUUS_inner_about_img {}
+
+.MUUS_inner_about_text {
+    padding: 0 40px;
+}
+
+.MUUS_inner_about_text p {
+    color: #000000;
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+.MUUS_inner_about_text h3 {
+    font-weight: 400;
+    font-size: 36px;
+    font-family: 'monument_extendedregular';
+    text-transform: uppercase;
+    color: #000;
+    margin: 24px 0;
+}
+
+.MUUS_inner_about_text h4 {
+    color: #1E1E1E;
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'monument_extendedregular';
+    text-transform: uppercase;
+}
+
+.MUUS_inner_about_text ul {
+    margin: 0 0 0 18px;
+}
+
+.MUUS_inner_about_text ul li {
+    color: #8d8e8d;
+    font-size: 16px;
+    margin: 10px 0 0;
+}
+
+.MUUS_about_work {
+    padding: 100px 0;
+    background: linear-gradient(180deg, #3D4144 0%, #1E2021 100%);
+}
+
+.MUUS_about_work h3 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'monument_extendedregular';
+    color: #fff;
+    margin-bottom: 13px;
+    opacity: .5;
+}
+
+.MUUS_about_work h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    font-family: 'monument_extendedregular';
+    text-transform: uppercase;
+    color: #fff;
+    margin: 24px 0;
+}
+
+.MUUS_about_design {
+    border: 1px solid #ffffff1a;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(125px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 12px;
+    padding: 40px;
+    margin: 30px 0 0;
+}
+
+.MUUS_about_design span {
+    width: 80px;
+    height: 120px;
+    display: inline-block;
+}
+
+.MUUS_about_design span img {}
+
+.MUUS_about_design h4 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'monument_extendedregular';
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.MUUS_about_design p {
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    font-size: 17px;
+    margin: 20px 0;
+}
+
+
+
+.MUUS_letsabout_work {
+    padding: 100px 0;
+    background: #fff;
+    position: relative;
+}
+
+.MUUS_letsabout_work:before {
+    content: "";
+    background: url(../images/Vector2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 0;
+    background-position: center;
+    height: 500px;
+    width: 900px;
+    top: 0;
+}
+
+.MUUS_letsabout_work:after {
+    content: "";
+    background: url(../images/Ellipse4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    background-position: left;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+}
+
+.MUUS_letsabout_work_box {
+    border: 1px solid #e3e3e3;
+    background: #ffff;
+    backdrop-filter: blur(125px);
+    border-radius: 24px;
+    position: relative;
+    z-index: 1;
+}
+
+.MUUS_letsabout_work_box a {
+    border: 1px solid #DC8E59;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #DC8E59;
+    width: 220px;
+    height: 54px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: blink;
+    margin: 20px 0 0;
+    padding: 13px 0;
+    font-family: 'monument_extendedregular';
+}
+
+.MUUS_letsabout_work_box a:hover {
+    background-color: #DC8E59;
+    color: #ffffff;
+}
+
+.MUUS_letsabout_work_box h2 {
+    font-weight: 400;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'monument_extendedregular';
+    display: inline-block;
+    color: #1E1E1E;
+}
+
+.MUUS_letsabout_work_text {
+    padding: 0 0 0 50px;
+}
+
+.MUUS_letsabout_work_img,
+.MUUS_lets_work_img {
+    text-align: right;
+}
+
+.MUUS_inner_conr {}
+
+.MUUS_inner_contact {
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    padding: 40px;
+    background: linear-gradient(180deg, #3D4144 0%, #1E2021 100%);
+}
+
+.MUUS_inner_contact h3 {
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 50px;
+    /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+    text-transform: uppercase;
+    font-family: 'monument_extendedregular';
+    color: #fff;
+}
+
+.MUUS_inner_contact form {
+    margin: 37px 0 0;
+}
+
+.MUUS_forminput {}
+
+.MUUS_forminput input {
+    border: 1px solid #FEFEFE;
+    filter: drop-shadow(0px 15px 30px rgba(0, 0, 0, 0.05));
+    border-radius: 8px;
+    height: 57px;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px 13px;
+    font-size: 15px;
+    background: transparent;
+    color: #ffffff;
+}
+
+.MUUS_forminput textarea {
+    border: 1px solid #FEFEFE;
+    filter: drop-shadow(0px 15px 30px rgba(0, 0, 0, 0.05));
+    border-radius: 8px;
+    width: 100%;
+    height: 144px;
+    resize: none;
+    padding: 10px 13px;
+    font-size: 15px;
+    background: transparent;
+    color: #ffffff;
+}
+
+.MUUS_forminput button {
+    border: 1px solid #FEFEFE;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    width: 212px;
+    height: 46px;
+    font-family: 'monument_extendedregular';
+    background: transparent;
+    margin: 20px 0 0 0;
+}
+
+.MUUS_forminput button:hover {
+    background: #DC8E59;
+    border-color: #DC8E59;
+}
+
+.MUUS_inner_conatct_text {
+    padding: 0 0 0 30px;
+}
+
+.MUUS_conatct_Company {
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    margin: 20px 0;
+    padding: 40px 30px;
+    display: inline-block;
+    background: linear-gradient(180deg, #3D4144 0%, #1E2021 100%);
+}
+
+.MUUS_conatct_Company span {
+    width: 29px;
+    display: inline-block;
+    margin-bottom: 31px;
+}
+
+.MUUS_conatct_Company span img {}
+
+.MUUS_conatct_Company h4 {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-family: 'monument_extendedregular';
+    color: #fff;
+}
+
+.MUUS_conatct_Company p {
+    color: #ffff;
+    opacity: 0.5;
+    font-size: 19px;
+}
+
+.MUUS_conatct_Company a {
+    color: #DC8E59;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-family: 'monument_extendedregular';
+}
+
+.MUUS_Studio_Box {
+    margin-bottom: 40px;
+}
+
+.MUUS_Studio_inner {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.MUUS_Studio_inner_heading {}
+
+.MUUS_Studio_inner_heading h2 {
+    font-weight: 400;
+    font-size: 34px;
+    font-family: 'monument_extendedregular';
+    color: #1E1E1E;
+    text-transform: uppercase;
+}
+
+.MUUS_Studio_inner_heading h2 span {}
+
+.MUUS_Studio_inner_heading h2 span img {}
+
+.MUUS_Studio_inner_heading p {}
+
+.MUUS_Studio_block {
+    margin: 40px 0 0;
+}
+
+.MUUS_Studio_block h3 {
+    font-weight: 400;
+    font-size: 22px;
+    font-family: 'monument_extendedregular';
+    color: #1E1E1E;
+    text-transform: uppercase;
+}
+
+.MUUS_Studio_block p {
+    color: #1E1E1E;
+    opacity: 0.5;
+    font-size: 15px;
+    margin: 10px 0 0;
+}
+
+.MUUS_inner_about_text ul li::before {
+    content: "\2022";
+    color: #DC8C56;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    opacity: 1 !important;
+}
+
+.MUUS_work_tab {
+    border: 0;
+    margin: 40px 0 0 0;
+}
+
+.MUUS_work_tab li {
+    margin: 0 30px 0 0;
+}
+
+.MUUS_work_tab li button {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-family: 'monument_extendedregular';
+    margin: 0;
+    color: #1E1E1E !important;
+    padding: 0 0 10px;
+    opacity: .3;
+}
+
+.MUUS_work_tab li button:hover,
+.MUUS_work_tab li button:focus {
+    opacity: 1;
+    border: 1px solid transparent !important;
+}
+
+.MUUS_work_tab li button.active,
+.MUUS_work_tab li button.active:hover {
+    color: #1E1E1E !important;
+    opacity: 1;
+    border: 0 !important;
+    border-bottom: 5px solid #DB8B55 !important;
+    padding: 0 0 10px;
+}
+
+.MUUS_work_tab_content {
+    margin: 20px 0 0;
+}
+
+.MUUS_work_tab_content .MUUS_work_box {
+    margin-top: 30px;
+}
+
+.MUUS_work_tab_content .MUUS_work_box img {
+    width: 100%;
+}
+
+.MUUS_work_tab_content .MUUS_work_text {}
+
+.MUUS_work_tab_content .MUUS_work_text a {
+    text-align: right;
+}
+
+.MUUS_table_work {
+    margin-bottom: 70px;
+}
+
+.MUUS_table_work_data {
+    border-top: 1px solid #bbb;
+    padding: 20px 0;
+}
+
+.MUUS_table_heading {}
+
+.MUUS_table_heading h3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-family: 'monument_extendedregular';
+    margin: 0;
+    color: #1E1E1E;
+    padding: 0;
+}
+
+.MUUS_table_text {}
+
+.MUUS_table_text h4 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-family: 'monument_extendedregular';
+    margin: 0;
+    color: #1E1E1E;
+    padding: 0;
+    opacity: .3;
+    text-align: center;
+}
+
+.MUUS_table_link {
+    text-align: right;
+}
+
+.MUUS_table_link a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-family: 'monument_extendedregular';
+    margin: 0;
+    padding: 0 0 10px;
+    text-decoration: none;
+    color: #DC8E59;
+}
+
+.MUUS_table_link a:hover {
+    color: #000000;
+}
+
+.MUUS_table_border {
+    border-bottom: 1px solid #bbb;
+}
+
+.MUSS_about_bg {
+    background: url(../images/about0.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.MUUS_services_main {
+    background: url(../images/services_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.MUUS_work_main {
+    background: url(../images/workbg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+}
+
+/******** media *********/
+
+@media (min-width:1200px) and (max-width:1399px) {
+
+    .MUUS_letsabout_work_box h2,
+    .MUUS_lets_work_box h2,
+    .MUUS_let_work_box h2 {
+        font-size: 42px;
+    }
+
+    .MUUS_Subscribe_box input {
+        width: 79%
+    }
+
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .MUUS_Subscribe_box input {
+        width: 75%
+    }
+
+    .MUUS_letsabout_work_box h2,
+    .MUUS_lets_work_box h2,
+    .MUUS_let_work_box h2 {
+        font-size: 36px;
+    }
+
+    .MUUS_letsabout_work_box a,
+    .MUUS_lets_work_box a,
+    .MUUS_let_work_box a {
+        font-size: 15px;
+        line-height: 24px;
+        width: 194px;
+        height: 51px;
+    }
+
+    .MUUS_conatct_Company a {
+        font-size: 14px;
+    }
+
+    .MUUS_conatct_Company p {
+        font-size: 18px;
+    }
+
+    .MUUS_conatct_Company span {
+        margin-bottom: 37px;
+    }
+
+    .MUUS_conatct_Company h4 {
+        font-size: 19px;
+    }
+
+    .MUUS_inner_contact h3 {
+        font-size: 23px;
+    }
+
+    header .navbar-nav li a {
+        font-size: 15px
+    }
+
+    .MUUS_about_section h2,
+    .MUUS_inner_team h2 {
+        font-size: 50px;
+    }
+
+    .MUUS_inner_about,
+    .MUUS_inner_team {
+        padding: 70px 0;
+    }
+
+    .MUUS_inner_about_text h3 {
+        font-size: 28px;
+    }
+
+    .MUUS_inner_about_text p {
+        font-size: 18px;
+    }
+
+    .MUUS_lets_work:before,
+    .MUUS_let_work:before {
+        background-position: top;
+        height: 400px;
+        width: 500px;
+    }
+
+    .MUUS_jointeam h2 {
+        font-size: 50px
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .MUUS_accordion .accordion-item h2 button.accordion-button {
+        font-size: 23px;
+    }
+
+    .MUUS_work_studies a {
+        line-height: 60px
+    }
+
+    .MUUS_Mission h2,
+    .MUUS_work_studies h2 {
+        font-size: 50px
+    }
+
+    .MUUS_Mission p {
+        font-size: 20px;
+        line-height: 36px;
+    }
+
+    .MUUS_inner_about_text {
+        padding: 40px 0;
+    }
+
+    .MUUS_letsabout_work_box h2,
+    .MUUS_lets_work_box h2,
+    .MUUS_let_work_box h2 {
+        font-size: 29px;
+    }
+
+    .MUUS_letsabout_work_box a,
+    .MUUS_lets_work_box a,
+    .MUUS_let_work_box a {
+        font-size: 14px;
+        line-height: 20px;
+        width: 185px;
+        height: 47px;
+    }
+
+    .MUUS_conatct_Company a {
+        font-size: 14px;
+    }
+
+    .MUUS_conatct_Company p {
+        font-size: 18px;
+    }
+
+    .MUUS_conatct_Company span {
+        margin-bottom: 37px;
+    }
+
+    .MUUS_conatct_Company h4 {
+        font-size: 19px;
+    }
+
+    .MUUS_inner_contact h3 {
+        font-size: 23px;
+    }
+
+    header .navbar-nav li a {
+        font-size: 14px;
+        margin: 0 5px;
+    }
+
+    .MUUS_about_section h2,
+    .MUUS_inner_team h2 {
+        font-size: 44px;
+    }
+
+    .MUUS_inner_about,
+    .MUUS_inner_team {
+        padding: 50px 0;
+    }
+
+    .MUUS_inner_conatct_text {
+        padding: 0;
+    }
+
+    .MUUS_conatct_Company {
+        width: 100%;
+        margin: 30px 0 0;
+    }
+
+    .MUUS_footer-Subscribe {
+        max-width: 300px;
+        margin: 50px auto 0;
+    }
+
+    .MUUS_letsabout_work:before {}
+
+    footer {
+        text-align: center
+    }
+
+    .MUUS_footer-nav {
+        margin: 40px 0 0;
+    }
+
+    .MUUS_letsabout_work:before,
+    .MUUS_let_work:before,
+    .MUUS_lets_work:before {
+        background-position: top;
+        height: 400px;
+        width: 500px;
+    }
+
+    .MUUS_jointeam img {
+        width: 30px;
+    }
+
+    .MUUS_jointeam h2 {
+        font-size: 50px;
+    }
+
+    .MUUS_jointeam a {
+        font-size: 14px;
+        width: 261px;
+    }
+}
+
+@media (min-width:200px) and (max-width:767px) {
+    .MUUS_home-header {
+        padding: 20px 0;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: unset;
+    }
+
+    .MUUS_table_work_data {
+        text-align: center;
+    }
+
+    .MUUS_table_text h4 {
+        margin: 15px 0;
+    }
+
+    .MUUS_table_link {
+        text-align: center;
+    }
+
+    header .navbar-nav li {
+        padding: 3px 15px;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .white-theme.navbar-toggler {
+        background: url(../images/menu-black.png);
+        background-size: 40px 40px;
+        background-repeat: no-repeat;
+        padding: 0;
+        height: 42px;
+        width: 43px;
+    }
+
+    .black-theme.navbar-toggler {
+        background: url(../images/menu.png);
+        background-size: 40px 40px;
+        background-repeat: no-repeat;
+        padding: 0;
+        height: 42px;
+        width: 43px;
+    }
+
+    .MUUS_letsabout_work_box h2,
+    .MUUS_lets_work_box h2,
+    .MUUS_let_work_box h2 {
+        font-size: 29px;
+    }
+
+    .MUUS_letsabout_work_box a,
+    .MUUS_lets_work_box a,
+    .MUUS_let_work_box a {
+        font-size: 14px;
+        line-height: 20px;
+        width: 185px;
+        height: 47px;
+    }
+
+    .MUUS_conatct_Company a {
+        font-size: 14px;
+    }
+
+    .MUUS_conatct_Company p {
+        font-size: 18px;
+    }
+
+    .MUUS_conatct_Company span {
+        margin-bottom: 37px;
+    }
+
+    .MUUS_conatct_Company h4 {
+        font-size: 19px;
+    }
+
+    .MUUS_inner_contact h3 {
+        font-size: 23px;
+        line-height: 40px;
+    }
+
+    header .navbar-nav li a {
+        font-size: 14px;
+        margin: 0 5px;
+    }
+
+    .MUUS_about_section h2,
+    .MUUS_inner_team h2 {
+        font-size: 36px;
+    }
+
+    .MUUS_inner_about,
+    .MUUS_inner_team {
+        padding: 30px 0;
+    }
+
+    .MUUS_inner_conatct_text {
+        padding: 0;
+    }
+
+    .MUUS_conatct_Company {
+        width: 100%;
+        margin: 30px 0 0;
+    }
+
+    .MUUS_footer-Subscribe {
+        max-width: 300px;
+        margin: 50px auto 0;
+    }
+
+    .MUUS_letsabout_work:before {}
+
+    footer {
+        text-align: center
+    }
+
+    .MUUS_footer-nav {
+        margin: 40px 0 0;
+    }
+
+    .MUUS_letsabout_work:before {
+        background-position: top;
+        height: 400px;
+        width: 500px;
+    }
+
+    .MUUS_letsabout_work_text,
+    .MUUS_lets_work_text,
+    .MUUS_let_work_text {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .MUUS_letsabout_work {
+        padding: 50px 0;
+    }
+
+    .MUUS_footer-text p {
+        padding: 0 30px
+    }
+
+    .navbar-nav {
+        position: absolute;
+        background: #fff;
+        width: 94%;
+        z-index: 9;
+    }
+
+    .MUUS_inner_about_text {
+        padding: 40px 0
+    }
+
+    .MUUS_inner_about_text h3 {
+        font-size: 30px
+    }
+
+    .MUUS_about_work h2 {
+        font-size: 24px
+    }
+
+    .MUUS_about_design {
+        padding: 30px 20px
+    }
+
+    .navbar-brand {
+        width: 177px;
+        padding: 10px 0;
+    }
+
+    .MUUS_inner_team_member,
+    .MUUS_team_member {
+        max-width: 300px;
+        margin: 15px auto;
+        display: block;
+    }
+
+    .MUUS_jointeam {
+        padding: 50px 0;
+    }
+
+    .MUUS_jointeam img {
+        width: 30px;
+    }
+
+    .MUUS_jointeam h3 {}
+
+    .MUUS_jointeam h2 {
+        font-size: 45px;
+    }
+
+    .MUUS_jointeam a {}
+
+    .MUUS_accordion .accordion-item h2 button.accordion-button {
+        font-size: 18px;
+    }
+
+    .MUUS_work_studies a {
+        line-height: 60px;
+        text-align: center;
+        float: none;
+        display: block;
+        font-size: 16px;
+    }
+
+    .MUUS_Mission h2,
+    .MUUS_work_studies h2 {
+        font-size: 40px;
+    }
+
+    .MUUS_Mission p {
+        font-size: 20px;
+        line-height: 36px;
+    }
+
+    .MUUS_inner_about_text {
+        padding: 40px 0;
+    }
+
+    .MUUS_work_studies {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .MUUS_team_section {
+        text-align: center;
+    }
+
+    header .navbar-nav li a {
+        color: #b2b2b2;
+        opacity: 1;
+    }
+
+    header .navbar-nav li a:hover {
+        color: #DC8E59;
+        opacity: 1;
+    }
+
+    .MUUS_services,
+    .MUUS_work,
+    .MUUS_Mission,
+    .MUUS_team {
+        padding: 60px 0
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .MUUS_banner {
+        
+    }
+
+    .MUUS_work_studies {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    header .navbar-nav li.active a {
+        opacity: 1 !important;
+        border-top: 3px solid #DB8B55;
+    }
+}
